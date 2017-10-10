@@ -1,0 +1,133 @@
+package com.softwareengineering.assignment1.driver;
+
+import java.util.ArrayList;
+import org.joda.time.*;
+import com.softwaredev.project.example.*;
+
+
+public class Driver {
+    
+	 static ArrayList<Student> ALLStudents = new ArrayList<>();
+	 static ArrayList<Course> ALLCourses = new ArrayList<>();
+	 static ArrayList<Module> ALLModules = new ArrayList<>();
+	 
+    public static void main(String[] args) {
+        
+        ArrayList<Student> BIOStudents = new ArrayList<>();
+        ArrayList<Student> ECEStudents = new ArrayList<>();
+        
+            Student annie = new Student("Annie Duffy", "22", new DateTime(1995, 8, 18,0, 0, 0), "14903113");
+        	Student bronagh = new Student("Bronagh Deane", "21",new DateTime(1996, 6, 27,0, 0, 0), "14307773");
+        	Student priscilla = new Student("Priscilla Mullin", "21",new DateTime(1996, 8, 8,0, 0, 0), "14839201");
+        	Student emily = new Student("Emily Blaney", "22",new DateTime(1995, 7, 24,0, 0, 0), "89001234");
+        	Student dervla = new Student("Dervla Murphy", "20",new DateTime(1997, 9, 3,0, 0, 0), "14822281");
+        	Student sarah = new Student("Sarah Duffy", "25",new DateTime(1992, 12, 10,0, 0, 0), "91007845");
+        	Student marissa = new Student("Marissa Britton", "22", new DateTime(1995, 10, 27,0, 0, 0),"14380572");
+        	Student lisa = new Student("Lisa Barrow", "21",new DateTime(1996, 4, 16,0, 0, 0), "14828790");
+        	
+                ECEStudents.add(annie);
+                ECEStudents.add(bronagh);
+                ECEStudents.add(emily);
+                ECEStudents.add(sarah);
+                
+                BIOStudents.add(priscilla);
+                BIOStudents.add(dervla);
+                BIOStudents.add(marissa);
+                BIOStudents.add(lisa);
+                
+                ALLStudents.add(annie);
+                ALLStudents.add(bronagh);
+                ALLStudents.add(emily);
+                ALLStudents.add(sarah);
+                ALLStudents.add(priscilla);
+                ALLStudents.add(dervla);
+                ALLStudents.add(marissa);
+                ALLStudents.add(lisa);
+
+	    Module softwareEng = new Module("Software Engineering I", "CT440", ECEStudents);
+	    Module bioDesign = new Module("Biomedical Design", "BE482", BIOStudents);		    	
+	    Module SoC = new Module("System on Chip", "EE412", ECEStudents);	
+	    Module telecomms = new Module("Telecommunications", "EE488", ECEStudents);
+	    Module projManagement = new Module("Project Management", "EE389", BIOStudents);		    	
+	    Module fyp = new Module("Final Year Project", "EE443", BIOStudents);
+
+        ArrayList<Module> ECEModules = new ArrayList<>();
+        ArrayList<Module> BIOModules = new ArrayList<>();
+
+	        ECEModules.add(softwareEng);
+	        ECEModules.add(SoC);
+	        ECEModules.add(telecomms);
+	        
+	        BIOModules.add(bioDesign);
+	        BIOModules.add(projManagement);
+	        BIOModules.add(fyp);
+	        
+	        ALLModules.add(softwareEng);
+	        ALLModules.add(SoC);
+	        ALLModules.add(telecomms);
+	        ALLModules.add(fyp);
+	        ALLModules.add(bioDesign);
+	        ALLModules.add(projManagement);
+        
+        Course ECE = new Course("Electronic & Computer Engineering", ECEModules, new DateTime(2014, 9, 1, 0,0,0), new DateTime(2017, 5, 30, 0,0,0));
+        Course BIO = new Course("Biomedical Engineering", BIOModules, new DateTime(2013, 9, 3, 0,0,0), new DateTime(2016, 6, 1, 0,0,0));
+        
+	        ALLCourses.add(ECE);
+	        ALLCourses.add(BIO);
+
+        getStudentDetails();
+    }
+
+	public static void printStudent(Student stu) {
+            
+            System.out.println("The student " + stu.getName());
+            System.out.print(", with username  " + stu.getUsername());
+            System.out.print(" and ID " + stu.getId() + ",");
+            System.out.print(" born on " + stu.getDob() + ",");
+            System.out.print(" aged " + stu.getAge()+ ".");
+    }
+    
+    public static void getStudentDetails() {
+    	
+    	String studentinfo = new String();
+    	
+		int allstudents = ALLStudents.size();
+		int allcourses = ALLCourses.size();
+
+
+		for(int i = 0; i < allstudents;i ++){
+			
+			Student StudentToDisplay = ALLStudents.get(i);
+			studentinfo = StudentToDisplay.getName()+ " " + "is studying ";
+			
+			for(int j = 0; j < allcourses; j++){
+				Course CourseSelected = ALLCourses.get(j);
+//				System.out.print(CourseSelected.getCourseName());
+				int noOfModules = CourseSelected.getModuleList().size();
+//				System.out.println(noOfModules);
+				String moduleInfo= new String();
+				
+				for(int k = 0; k < noOfModules; k++){
+
+					Module ModuleSelected = CourseSelected.getModuleList().get(k);
+					int noOfStudents = ModuleSelected.getStudents().size();
+						
+						for(int l = 0; l < noOfStudents; l++){
+							Student StudentSelected = ModuleSelected.getStudents().get(l);
+							String A = StudentSelected.getName();
+							String B = StudentToDisplay.getName();
+
+								if(A.equals(B)){
+									moduleInfo += ModuleSelected.getModuleName() + ", ";
+									
+								}
+						}
+					}
+				if(!moduleInfo.isEmpty()){
+					studentinfo += moduleInfo + "in the course " + CourseSelected.getCourseName()+ "\n";
+					moduleInfo = null;
+				}
+			}		
+		}
+    }
+}
