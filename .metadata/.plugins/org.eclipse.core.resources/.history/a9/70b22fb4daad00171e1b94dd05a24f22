@@ -2,9 +2,7 @@ package com.softwareengineering.assignment1.driver;
 
 import java.util.ArrayList;
 import org.joda.time.*;
-import com.softwareengineering.assignment1.part1.Course;
-import com.softwareengineering.assignment1.part1.Module;
-import com.softwareengineering.assignment1.part1.Student;
+import com.softwaredev.project.example.*;
 
 
 public class Driver {

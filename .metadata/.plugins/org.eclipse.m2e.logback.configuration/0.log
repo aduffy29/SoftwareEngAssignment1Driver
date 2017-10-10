@@ -1144,3 +1144,37 @@
 2017-10-10 15:29:21,706 [Worker-779] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2017-10-10 15:29:21,706 [Worker-779] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Knowhow\Documents\4th Year\Workspace2\driver\src\main\resources
 2017-10-10 15:29:21,708 [Worker-779] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-10-10 15:29:21,709 [Worker-779] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Knowhow\Documents\4th Year\Workspace2\driver\src\test\resources
+2017-10-10 17:22:36,290 [Worker-809] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2017-10-10 17:22:37,037 [Worker-809] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.softwareengineering.assignment1:driver:0.0.1-SNAPSHOT @ C:\Users\Knowhow\Documents\4th Year\Workspace2\driver\pom.xml.
+2017-10-10 17:22:37,379 [Worker-809] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /driver/src/main/java
+2017-10-10 17:22:37,380 [Worker-809] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /driver/src/test/java
+2017-10-10 17:22:37,498 [Worker-809] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 1 sec
+2017-10-10 17:22:37,737 [Worker-810] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-10-10 17:22:37,738 [Worker-810] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Knowhow\Documents\4th Year\Workspace2\driver\src\main\resources
+2017-10-10 17:22:37,741 [Worker-810] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-10-10 17:22:37,741 [Worker-810] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Knowhow\Documents\4th Year\Workspace2\driver\src\test\resources
+2017-10-10 17:22:55,593 [Worker-809] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\Knowhow\Documents\4th Year\Workspace2\driver
+2017-10-10 17:22:55,594 [Worker-809] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B install
+2017-10-10 17:22:59,618 [Worker-811] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-10-10 17:22:59,618 [Worker-811] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Knowhow\Documents\4th Year\Workspace2\driver\src\main\resources
+2017-10-10 17:22:59,620 [Worker-811] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-10-10 17:22:59,620 [Worker-811] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Knowhow\Documents\4th Year\Workspace2\driver\src\test\resources
+2017-10-10 17:23:11,169 [Worker-811] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\Knowhow\Documents\4th Year\Workspace2\driver
+2017-10-10 17:23:11,170 [Worker-811] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B install
+2017-10-10 17:23:16,300 [Worker-810] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-10-10 17:23:16,300 [Worker-810] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Knowhow\Documents\4th Year\Workspace2\driver\src\main\resources
+2017-10-10 17:23:16,301 [Worker-810] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-10-10 17:23:16,302 [Worker-810] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Knowhow\Documents\4th Year\Workspace2\driver\src\test\resources
+2017-10-10 17:46:56,858 [Worker-823] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-10-10 17:46:56,858 [Worker-823] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Knowhow\Documents\4th Year\Workspace2\driver\src\main\resources
+2017-10-10 17:46:56,859 [Worker-823] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-10-10 17:46:56,859 [Worker-823] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Knowhow\Documents\4th Year\Workspace2\driver\src\test\resources
+2017-10-10 17:46:59,880 [Worker-821] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-10-10 17:46:59,880 [Worker-821] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Knowhow\Documents\4th Year\Workspace2\driver\src\main\resources
+2017-10-10 17:46:59,881 [Worker-821] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-10-10 17:46:59,881 [Worker-821] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Knowhow\Documents\4th Year\Workspace2\driver\src\test\resources
+2017-10-10 17:47:29,808 [Worker-824] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-10-10 17:47:29,809 [Worker-824] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Knowhow\Documents\4th Year\Workspace2\driver\src\main\resources
+2017-10-10 17:47:29,809 [Worker-824] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-10-10 17:47:29,809 [Worker-824] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Knowhow\Documents\4th Year\Workspace2\driver\src\test\resources
