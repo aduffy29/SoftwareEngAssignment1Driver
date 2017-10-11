@@ -22,14 +22,5 @@
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="C:/Users/Knowhow/.m2/repository/com/github/aduffy29/SoftwareEngAssignment1Part1/-be7dca60e8-1/SoftwareEngAssignment1Part1--be7dca60e8-1.jar">
-		<attributes>
-			<attribute name="maven.pomderived" value="true"/>
-			<attribute name="maven.groupId" value="com.github.aduffy29"/>
-			<attribute name="maven.artifactId" value="SoftwareEngAssignment1Part1"/>
-			<attribute name="maven.version" value="-be7dca60e8-1"/>
-			<attribute name="maven.scope" value="compile"/>
-		</attributes>
-	</classpathentry>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>

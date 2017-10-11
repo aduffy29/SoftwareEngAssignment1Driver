@@ -1207,3 +1207,14 @@
 2017-10-11 12:14:54,321 [Worker-920] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Knowhow\Documents\4th Year\Workspace2\driver\src\main\resources
 2017-10-11 12:14:54,322 [Worker-920] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2017-10-11 12:14:54,322 [Worker-920] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Knowhow\Documents\4th Year\Workspace2\driver\src\test\resources
+2017-10-11 18:15:24,525 [Worker-1024] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-10-11 18:15:24,787 [Worker-1024] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Knowhow\Documents\4th Year\Workspace2\driver\src\main\resources
+2017-10-11 18:15:24,788 [Worker-1024] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-10-11 18:15:24,789 [Worker-1024] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Knowhow\Documents\4th Year\Workspace2\driver\src\test\resources
+2017-10-11 18:18:23,575 [Worker-1029] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2017-10-11 18:18:37,882 [Worker-1029] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.softwareengineering.assignment1:driver:0.0.1-SNAPSHOT @ C:\Users\Knowhow\Documents\4th Year\Workspace2\driver\pom.xml.
+2017-10-11 18:18:43,486 [Worker-1029] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /driver/src/main/java
+2017-10-11 18:18:43,487 [Worker-1029] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /driver/src/test/java
+2017-10-11 18:18:44,021 [Worker-1029] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 20 sec
+2017-10-11 18:18:45,843 [Worker-1029] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-10-11 18:18:45,844 [Worker-1029] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Knowhow\Documents\4th Year\Workspace2\driver\src\main\resources
